@@ -1,5 +1,8 @@
-/*-------------- Especificidade -------------
+/*-------------------------------------------*/
+/*-------------- Especificidade -------------*/
+/*-------------------------------------------*/
 
+/*
 #meu-paragrafo {
     background-color: blueviolet;
 }
@@ -21,8 +24,11 @@ p {
 (!important) é o usado no maior escalão de especificidade usado
 em ultimos casos*/
 
+/* ----------------------------------------------------*/
+/* -------------------- TEXT ALIGN --------------------*/
+/* ----------------------------------------------------*/
 
-/* -------------------- TEXT ALIGN --------------------
+/*
 .fundo-alinhado {
     background-color: rgb(199, 199, 199);
     padding: 20px;
@@ -73,3 +79,22 @@ em ultimos casos*/
 }
 */
 
+
+/*-------------------------------------------------------*/
+/*-----------------Propriedades Fontes-------------------*/
+/*-------------------------------------------------------*/
+
+/*
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;    
+    font-size: 20px;
+    font-weight: bold;
+}
+*/
+
+
+/*-------------------------------------------------------*/
