@@ -1,24 +1,75 @@
-/*-------------- Especificidade -------------*/
+/*-------------- Especificidade -------------
 
 #meu-paragrafo {
     background-color: blueviolet;
 }
 
-/* 1.0.0 */
 .conteiner-cascata p {
     background-color: aqua
-        /*!important*/
+        !important
     ;
 }
 
-/* 0.1.1 */
 
 p {
     background-color: red;
-}
+}*/
 
 /* 0.0.1*/
 
 /*No efeito cascata a especificidade se destaca sempre
 (!important) é o usado no maior escalão de especificidade usado
 em ultimos casos*/
+
+
+/* -------------------- TEXT ALIGN --------------------
+.fundo-alinhado {
+    background-color: rgb(199, 199, 199);
+    padding: 20px;
+}
+
+.alinhamento-esquerda {
+    text-align: left;
+}
+
+.alinhamento-direita {
+    text-align: right;
+}
+
+.alinhamento-centro {
+    text-align: center;
+}
+
+.alinhamento-justificado {
+    text-align: justify;
+}
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.minusculo {
+    text-transform: lowercase;
+}
+
+.capitalizado {
+    text-transform: capitalize;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.linha-sobreposta {
+    text-decoration: line-through;
+}
+
+.sem-text-decoration {
+    text-decoration: none;
+}
+
+.sombra {
+    text-shadow: 10px 10px 1px #808080;
+}
+*/
+
