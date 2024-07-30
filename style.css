@@ -134,4 +134,50 @@ ul {
 }
 */
 
+/*-------------------------------------------------------*/
+/*-------------------------BackGroud---------------------*/
+/*-------------------------------------------------------*/
+/*
+p {
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
 
+.bg {
+    background-color: lightgreen;
+    background-image: url('./images/sukuna.jpg');
+}
+
+.bg-image {
+    width: 1308px;
+    height: 736px;
+}
+*/
+/* backgroud-repeat no-repeat= serve para não repetir "noprepeat" mas tbm pode ser usada com y ou x
+backgroud-attachment fixed = fixa no fundo do site a imagem sem que ela scrolla
+backgroud-position = ele ajuda a fixar a imagem em algum lugar que deseja, abaixo, acima, esquerda, direita ou até msm por pixel  
+*/
+
+/*-------------------------------------------------------*/
+/*-------------------------Display-----------------------*/
+/*-------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 24px;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+.em-bloco {
+    background: aqua;
+    margin-bottom: 10px;
+    width: 100px;
+}
