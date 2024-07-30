@@ -1,0 +1,16 @@
+/*-------------- Especificidade -------------*/
+
+#meu-paragrafo{
+    background-color: blueviolet;
+}/* 1.0.0 */
+.conteiner-cascata p{
+    background-color: aqua /*!important*/;
+}/* 0.1.1 */
+
+p{
+background-color: red;
+}/* 0.0.1*/
+
+/*No efeito cascata a especificidade se destaca sempre
+(!important) é o usado no maior escalão de especificidade usado
+em ultimos casos*/
